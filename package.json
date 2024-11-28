@@ -2,6 +2,11 @@
   "name": "MobileApp",
   "version": "0.0.1",
   "private": true,
+
+   "devDependencies": {
+  "@react-native-community/cli": "latest"
+    },
+  
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,8 +15,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-navigation/native": "^7.0.8",
+    "@react-navigation/stack": "^7.0.13",
     "react": "18.3.1",
-    "react-native": "0.76.3"
+    "react-native": "0.76.3",
+    "react-native-countdown-circle-timer": "^3.2.1",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-maps": "^1.20.1",
+    "react-native-reanimated": "^3.16.3",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^4.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -36,4 +49,6 @@
   "engines": {
     "node": ">=18"
   }
+  
+
 }
